@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Baseline.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="2671" topLine="73" />
+	</File>
+	<File name="Baseline.h" open="0" top="0" tabpos="11">
+		<Cursor position="244" topLine="0" />
+	</File>
+	<File name="Common.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="42" topLine="0" />
+	</File>
+	<File name="Common.h" open="0" top="0" tabpos="9">
+		<Cursor position="315" topLine="0" />
+	</File>
+	<File name="ExtractRule.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="2391" topLine="87" />
+	</File>
+	<File name="ExtractRule.h" open="1" top="1" tabpos="9">
+		<Cursor position="664" topLine="2" />
+	</File>
+	<File name="FeatExtract.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="35062" topLine="0" />
+	</File>
+	<File name="FeatExtract.h" open="0" top="0" tabpos="7">
+		<Cursor position="3972" topLine="79" />
+	</File>
+	<File name="Initialization.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="1862" topLine="27" />
+	</File>
+	<File name="Initialization.h" open="0" top="0" tabpos="8">
+		<Cursor position="2021" topLine="0" />
+	</File>
+	<File name="LittleFunc.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="7197" topLine="153" />
+	</File>
+	<File name="LittleFunc.h" open="0" top="0" tabpos="7">
+		<Cursor position="947" topLine="6" />
+	</File>
+	<File name="PostDecode.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="24" topLine="104" />
+	</File>
+	<File name="PostDecode.h" open="0" top="0" tabpos="8">
+		<Cursor position="63" topLine="0" />
+	</File>
+	<File name="RSTTree.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="8017" topLine="190" />
+	</File>
+	<File name="RSTTree.h" open="0" top="0" tabpos="2">
+		<Cursor position="869" topLine="15" />
+	</File>
+	<File name="SynTree.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="4594" topLine="0" />
+	</File>
+	<File name="SynTree.h" open="0" top="0" tabpos="9">
+		<Cursor position="881" topLine="10" />
+	</File>
+	<File name="dtlearn.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="8453" topLine="252" />
+	</File>
+	<File name="dtlearn.h" open="0" top="0" tabpos="4">
+		<Cursor position="246" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

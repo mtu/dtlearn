@@ -1,0 +1,17 @@
+CXX	=	g++
+CPPFLAGS = -I. -O
+LINKFLAGS = -lboost_regex 
+
+default: dtlearn
+
+SynTree.o : Common.h 
+RSTTree.o : Common.h Initialization.h
+Initialization.o : SynTree.h
+FeatExtract.o : Common.h Initialization.h SynTree.h RSTTree.h
+dtlearn.o : Common.h Initialization.h SynTree.h RSTTree.h FeatExtract.h
+obj=dtlearn.o SynTree.o RSTTree.o Initialization.o FeatExtract.o
+
+dtlearn : ${obj}
+	${CXX} ${CPPFLAGS} -o dtlearn ${obj} ${LINKFLAGS}
+
+clean : rm *.o

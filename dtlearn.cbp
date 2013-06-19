@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dtlearn" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="dtlearn/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/dtlearn" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../../../../usr/local/boost_1_49_0" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../../../usr/lib/libboost_regex.so" />
+					<Add library="../../../../../../../usr/lib/libboost_regex.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dtlearn" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../../../../usr/local/boost_1_49_0" />
+		</Compiler>
+		<Unit filename="Baseline.cpp" />
+		<Unit filename="Baseline.h" />
+		<Unit filename="Common.cpp" />
+		<Unit filename="Common.h" />
+		<Unit filename="ExtractRule.cpp" />
+		<Unit filename="ExtractRule.h" />
+		<Unit filename="FeatExtract.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="FeatExtract.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Initialization.cpp" />
+		<Unit filename="Initialization.h" />
+		<Unit filename="LittleFunc.cpp" />
+		<Unit filename="LittleFunc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="PostDecode.cpp" />
+		<Unit filename="PostDecode.h" />
+		<Unit filename="RSTTree.cpp" />
+		<Unit filename="RSTTree.h" />
+		<Unit filename="SynTree.cpp" />
+		<Unit filename="SynTree.h" />
+		<Unit filename="dtlearn.cpp" />
+		<Unit filename="dtlearn.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
